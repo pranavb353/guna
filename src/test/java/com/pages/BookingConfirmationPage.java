@@ -47,6 +47,8 @@ public class BookingConfirmationPage extends BaseClass {
 	 */
 
 	public String getOrderId() {
+		System.out.println("balajiii");
+		System.out.println("natappan");
 		String orderID = getAttribute(getOrderId());
 		return orderID;
 
